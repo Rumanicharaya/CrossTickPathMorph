@@ -1,0 +1,19 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/vd_pathmorph_crosstick_tick">
+
+    <target android:name="tickPath"
+        android:animation="@anim/tick_to_cross"/>
+
+
+
+
+    <target android:name="crossTickGroup"
+        android:animation="@anim/tick_to_cross_rotation"/>
+
+
+
+
+
+</animated-vector>
